@@ -1,0 +1,39 @@
+/* The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. */
+
+/* The img element should be centered within its parent element. */
+
+/* dolphins hex colors
+aqua: #008E97
+orange: #F58220
+blue: #005778
+*/
+
+body {
+    margin: 0 auto;
+    align-items: center;
+}
+
+main {
+  margin: none;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+#title, #title-caption {
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: center;
+}
+
+#img-div {
+  width: 50%;
+  align-items: center;
+  background-color: #008e97;
+  padding: 30px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
