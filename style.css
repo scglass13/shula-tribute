@@ -9,19 +9,19 @@ blue: #005778
 */
 
 body {
-    margin: 0 auto;
-    align-items: center;
+  margin: 0 auto;
+  align-items: center;
 }
 
 main {
   margin: none;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-#title, #title-caption {
-  font-family: "Nanum Gothic", sans-serif;
+#title,
+#title-caption {
   text-align: center;
 }
 
@@ -30,10 +30,43 @@ main {
   align-items: center;
   background-color: #008e97;
   padding: 30px;
+  text-align: center;
+  max-width: 700px;
+  border: 3px solid #f58220;
+  float: right;
 }
 
 img {
   width: 100%;
   height: 100%;
   margin-bottom: 1rem;
+  max-width: 100%;
+  display: inline-block;
+  align-content: center;
+  margin: auto;
+}
+
+#img-caption {
+  background-color: #005778;
+  border-radius: 60px;
+  color: white;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+ul {
+  width: 75%;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+#tribute-link {
+  margin: 20px;
 }
